@@ -1,0 +1,339 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+body, .container{
+    background: #ebeef0;
+}
+.branco{
+    background: #fff;   
+}
+
+body,
+h1,h2,h3,h4,h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+h2, h3, 
+p{ font-family: "Titillium Web", sans-serif;}
+p{ color: #000;}
+
+.topnav {
+    font-size: 14px; 
+    background: #46bbdc;
+}
+.navbar{ margin-bottom: 0;}
+
+.titulo{ color: #aaa;}
+
+.grupo{ width:23%; background: #fff; margin: 0 1%;}
+
+.sessao{ width: 100%; background: #fff; margin-bottom: 40px; color: #000;}
+
+.lead {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+
+.questao-atual{
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 1px 3px 1px 0 #cecece;
+    padding: 10px;
+    height: 460px;
+}
+.header-lista, .header-questao{ display: block;}
+.titulo-questao{
+    position: relative;
+    float: left;
+    width: 90%;
+    color: #888;
+}
+.titulo-tempo{
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #888;
+}
+.titulo-lista{
+    position: relative;
+    float: left;
+    width: 60%;
+    color: #fff;
+}
+.titulo-lista small{ color: #fff;}
+.icons-questao{
+    position: relative;
+    float: left;
+    width: 10%;
+    color: #888;
+}
+
+
+.lista-questoes{
+    border: 1px solid #ccc;
+    background: #46bbdc;
+    box-shadow: 1px 3px 1px 0 #cecece;
+    padding: 10px;
+    color: #fff;
+    height: 110px;
+}
+.lista{
+    height: 340px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+
+.btn-prox-questao{
+    position: relative;
+    float: left;
+    width: 40%;
+    background: #fff;
+    color: #5fbdd5;
+    height: 40px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 25px;
+}
+
+
+.clearfix{
+    width: 100%;
+    padding: 20px;
+    display: block;
+}
+.divisao{ border-bottom: 1px solid #ddd;}
+
+#tempo-questao-atual{
+    width: 110px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.alternativas{
+    font-size: 11px;
+    list-style-type: none;
+}
+.alternativas h4{ color: #888; font-size: 12px;}
+.alternativas li {
+    margin: 10px 0;
+}
+
+.icon-grupo{ color: #fff;}
+.bagde{ background: #91c957; border-radius: 100%; padding: 10px;}
+
+.login{
+    width: 400px;
+    margin: 10% auto 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 40px;
+}
+
+.tela-login{
+    position: static;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_login.png);
+    z-index: 5000;
+    overflow: hidden;
+}
+
+.centro{
+    text-align: center;
+}
+
+.alternativas-participante{
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #46bbdc;
+}
+
+
+.eventos, .lobby{
+    font-size: 14px;
+    list-style-type: none;
+}
+.eventos, .lobby h4{ color: #888; font-size: 12px;}
+.eventos li {
+    margin: 10px 0;
+}
+.lobby li {
+    margin: 10px;
+}
+
+
+.eventos-cadastrados{
+    margin: 10px;
+    padding: 12px 10px;
+    color: #999;
+    background: #E9EDF0;
+}
+.grupos-cadastrados{
+    margin: 10px;
+    padding: 12px 10px;
+    color: #999;
+    background: #E9EDF0;
+}
+.btn-evento{
+    padding: 4px 0;
+    color: #fff;
+    background: #46bbdc;
+    text-align: center;
+    border: 0;
+}
+
+.aguarde-jogo{
+    margin-top: 15%;
+}
